@@ -1,1 +1,0 @@
-Minimistic, modular CMS.
