@@ -2,7 +2,7 @@
 
 <html>
 <head>
-    <title>Install FrontierCMS</title>
+    <title>Install OriginCMS</title>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/flatly/bootstrap.min.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 </head>
@@ -23,7 +23,7 @@
                     ?>
                     <h1>Welcome!</h1>
                     <hr>
-                    <p>Welcome to the FrontierCMS installation process. This should only take a few minutes and will guide you through the installation. </p>
+                    <p>Welcome to the OriginCMS installation process. This should only take a few minutes and will guide you through the installation. </p>
                     <br>
                     <h1>Needed information:</h1>
                     <hr>
@@ -97,7 +97,7 @@
                 $_SESSION['adminPassConfirm']=$_POST['adminPassConfirm'];
                 $_SESSION['indexing']=$_POST['indexing'];
                 ?>
-                <h1>FrontierCMS Install Step 2</h1>
+                <h1>OriginCMS Install Step 2</h1>
                 <hr>
                 <p>You should have already made a mysql database before this step. If you didn't, go do it now. If you already have one, enter your connection info below.</p>
                 <form class="form-horizontal" id="form" role="form" method="post" action="./?step=3">
@@ -110,13 +110,13 @@
                     <div class="form-group">
                         <label class="col-sm-2 control-label">Database name</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" placeholder="FrontierCMS" name="dbName" data-msg-required="This field is required" data-rule-required="true" value="FrontierCMS">
+                            <input type="text" class="form-control" placeholder="OriginCMS" name="dbName" data-msg-required="This field is required" data-rule-required="true" value="OriginCMS">
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="col-sm-2 control-label">User name</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" placeholder="FrontierCMS" name="dbUser" data-msg-required="This field is required" data-rule-required="true" value="FrontierCMS">
+                            <input type="text" class="form-control" placeholder="OriginCMS" name="dbUser" data-msg-required="This field is required" data-rule-required="true" value="OriginCMS">
                         </div>
                     </div>
                     <div class="form-group">
@@ -128,7 +128,7 @@
                     <div class="form-group">
                         <label class="col-sm-2 control-label">Table prefix</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" placeholder="frontier_" name="dbPre" data-msg-required="This field is required" data-rule-required="true" value="frontier_">
+                            <input type="text" class="form-control" placeholder="origin_" name="dbPre" data-msg-required="This field is required" data-rule-required="true" value="Prefix">
                         </div>
                     </div>
                     <div class="form-group">
