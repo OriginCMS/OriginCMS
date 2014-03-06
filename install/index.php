@@ -19,7 +19,7 @@
                 if(file_exists($rootDir . '/includes/config.php')){
                     echo '<p>The config file is already written. If you would like to reinstall, please delete /includes/config.php</p>';
                     die();
-                }elseif(!file_exists($thisDir . '/includes/config.php')){
+                } elseif(!file_exists($thisDir . '/includes/config.php')){
                     ?>
                     <h1>Welcome!</h1>
                     <hr>
@@ -80,7 +80,7 @@
                             </div>
                         </div>
                     </form>
-                    <?php
+            <?php
                 }else{
                     echo '<p>An unexpected error occurred and the config file both exists and doesn\'t exist at the same time. Please get a new <a href="https://www.teknostuf.com/FrontierCMS/hosting>host</a>."';
                 }
@@ -196,8 +196,10 @@
                     .parent().parent().addClass("has-error")
                     .tooltip(); // Create a new tooltip based on the error messsage we just set in the title
                 });
-            },
+            }
         });
     </script>
 </body>
 </html>
+
+<!--bad coding, fix layout, and don't write code accross different <php tags-->
